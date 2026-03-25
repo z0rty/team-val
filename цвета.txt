@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HYAKUTAKE | Valorant Team</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="index.html" class="logo">HYAKUTAKE</a>
+    <div class="nav-links">
+        <a href="#roster">Состав</a>
+        <a href="#maps">Карты</a>
+    </div>
+</nav>
+
+<header class="hero">
+    <h1>TEAM HYAKUTAKE</h1>
+    <p>Official Roster & Strategy Map</p>
+</header>
+
+<section id="roster" class="container">
+    <h2 class="section-title">Наш Ростер</h2>
+    <div class="player-grid">
+    <div class="player-card">
+        <div class="agent-frame">
+            <img src="img/jett.png" alt="Jett">
+        </div>
+        <div class="player-info">
+            <h3>amomaway</h3>
+            <p>Duelist / Entry (Jett)</p>
+            <a href="https://tracker.gg/valorant/profile/riot/amomaway%23777/overview" target="_blank" class="btn-tracker">Tracker</a>
+        </div>
+    </div>
+    <div class="player-card">
+        <div class="agent-frame">
+            <img src="img/fade.png" alt="Fade">
+        </div>
+        <div class="player-info">
+            <h3>Z3trixX</h3>
+            <p>Initiator (Fade)</p>
+            <a href="https://tracker.gg/valorant/profile/riot/Sen Z3trixX%23777/overview" target="_blank" class="btn-tracker">Tracker</a>
+        </div>
+    </div>
+    <div class="player-card">
+        <div class="agent-frame">
+            <img src="img/omen.png" alt="Omen">
+        </div>
+        <div class="player-info">
+            <h3>zorty</h3>
+            <p>Controller (Omen)</p>
+            <a href="https://tracker.gg/valorant/profile/riot/zorty%23champ/overview" target="_blank" class="btn-tracker">Tracker</a>
+        </div>
+    </div>
+    <div class="player-card">
+        <div class="agent-frame">
+            <img src="img/killjoy1.png" alt="Killjoy">
+        </div>
+        <div class="player-info">
+            <h3>caressgiver</h3>
+            <p>Sentinel (Killjoy)</p>
+            <a href="https://tracker.gg/valorant/profile/riot/caressgiver%23adhd/overview" target="_blank" class="btn-tracker">Tracker</a>
+        </div>
+    </div>
+    <div class="player-card">
+        <div class="agent-frame">
+            <img src="img/waylay.png" alt="Waylay">
+        </div>
+        <div class="player-info">
+            <h3>let it happen</h3>
+            <p>Duelist / Entry (Waylay)</p>
+            <a href="https://tracker.gg/valorant/profile/riot/let it happen%23adhd/overview" target="_blank" class="btn-tracker">Tracker</a>
+        </div>
+    </div>
+</div>
+<section id="maps" class="container">
+    <h2 class="section-title">Стратегии по картам</h2>
+    <div id="maps-container" class="maps-grid"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
